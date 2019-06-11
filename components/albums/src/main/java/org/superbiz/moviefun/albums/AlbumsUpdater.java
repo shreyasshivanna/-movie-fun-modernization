@@ -7,8 +7,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.superbiz.moviefun.CsvUtils;
-import org.superbiz.moviefun.blobstore.Blob;
-import org.superbiz.moviefun.blobstore.BlobStore;
+import org.superbic.moviefun.blobstore.Blob;
+import org.superbic.moviefun.blobstore.BlobStore;
 
 import java.io.IOException;
 import java.util.List;

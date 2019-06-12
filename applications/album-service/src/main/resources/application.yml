@@ -1,4 +1,4 @@
-server.port: 8082
+server.port: 8081
 
 spring:
   jpa:
@@ -6,7 +6,7 @@ spring:
     properties.hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
 
   datasource:
-    url: jdbc:mysql://localhost:3306/movies?useSSL=false
+    url: jdbc:mysql://localhost:3306/albums?useSSL=false
     username: root
     tomcat:
       max-active: 4
